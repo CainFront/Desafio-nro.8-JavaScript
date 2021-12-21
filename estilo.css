@@ -1,0 +1,206 @@
+/* Reset General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CSS General */
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulo {
+  text-align: center;
+  padding: 2rem;
+  text-decoration: underline;
+}
+
+/* =================================
+         SECCION INGREDIENTES
+====================================*/
+.ingredientes {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.textoIngrediente {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(197, 139, 46);
+  text-align: center;
+  text-shadow: black 1px 1px;
+}
+
+/* Seccion Pan */
+
+.pan {
+  width: 55vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#uno {
+  width: 25vw;
+  height: 25vh;
+  background-image: url(./img/uno.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#dos {
+  width: 25vw;
+  height: 25vh;
+  background-image: url(./img/dos.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Seccion Verduras */
+.verdura {
+  width: 55vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tres {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/tres.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#cuatro {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/cuatro.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#cinco {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/cinco.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Seccion Aderezos */
+.aderezo {
+  width: 55vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#seis {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/seis.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#siete {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/siete.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#ocho {
+  width: 15vw;
+  height: 25vh;
+  background-image: url(./img/ocho.gif);
+  background-size: cover;
+  background-position: center;
+}
+/* =================================
+         SECCION COMANDA
+====================================*/
+.comanda {
+  width: 35vw;
+  height: 100vh;
+  background-color: #e6d7bd;
+}
+
+.listaTitulo {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.listaUl {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+/* Seccion Total y Botones */
+
+/* .lista {
+  border: 1px solid red;
+} */
+
+.total {
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+#totalBtn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: rgb(18, 100, 15);
+}
+
+.comprar {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comprarBtn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: tomato;
+}
+
+.borrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.borrarBtn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border-radius: 5%;
+  background-color: rgb(255, 0, 0);
+  text-decoration: none;
+}
